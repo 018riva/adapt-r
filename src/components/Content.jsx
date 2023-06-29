@@ -2,7 +2,9 @@ import './gulp styles/style.css'
 
 export function Content() {
     return (
-        <div class="container">
+        <div>
+            <header class="header"><h1>Header</h1></header>
+            <div class="container">
             <div class="box">
                 <div class="content">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, praesentium.</p>
@@ -39,5 +41,7 @@ export function Content() {
                 </div>
             </div>
         </div>
+        </div>
+        
     )
 }
